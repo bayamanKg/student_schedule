@@ -1,0 +1,51 @@
+@import url(https://fonts.googleapis.com/css?family=Rubik:300,regular,500,600,700,800,900,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+* {
+  font-family: "Rubik", sans-serif;
+}
+
+body {
+  padding-bottom: 30px;
+}
+
+.title tr th {
+  background-color: blueviolet;
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+#schedule tr td {
+  font-size: 18px;
+}
+
+#weekType {
+  color: blueviolet;
+}
+
+.footer {
+  background-color: blueviolet;
+  color: #fff;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+
+.footer p {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+#data {
+  font-weight: 400;
+  text-shadow: 0px 0px 6px #dadada;
+}
+
+#time {
+  font-weight: 400;
+  text-shadow: 0px 0px 6px #dadada;
+}
